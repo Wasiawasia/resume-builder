@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Resume Builder</h1>
+        <form id="resumeForm">
+            <fieldset>
+                <legend>PERSONAL INFORMATION</legend>
+            <label for ="name">Full Name : </label>
+            <input id="name" placeholder=" Enter your Name" required>
+           
+            
+            
+                <legend>Email</legend>
+
+            <label for ="email">Email : </label>
+            <input id="email" placeholder=" Enter your Email" required>
+            
+                <legend>Phone</legend>
+
+
+            <label for ="phone">Phone : </label>
+            <input id="phone" placeholder=" Enter your phone number" required>
+            
+                <legend>Address</legend>
+
+            <label for ="address">Address: </label>
+            <input id="phone" placeholder=" Enter your address" required>
+            </fieldset>
+            <fieldset>
+                <legend>Experience</legend>
+
+            <label for ="job title">Job title: </label>
+            <input id="job title" name="job title" placeholder=" your work experience" required>
+            
+            
+
+            <label for ="company">Company: </label>
+            <input id="company" name="company" required>
+
+            <label for ="years">Years of Experience: </label>
+            <input id="years" name="years" required>
+        </fieldset>
+        <textare>
+        <fieldset>
+           
+            <legend>Skills</legend>
+        <label for=""skills> Enter your skills</label>
+            <input id="skills" name="skills" rows="4"required>
+            
+        </fieldset>
+        </textare>
+        <div id="button-3d">
+         <button
+         type="submit"> 
+            Generate Resume button
+
+            </button>
+        </div>
+  </form>
+  <br> <br>
+ <!--dynamic resume-->
+ <div id="resume-display">
+    <!--resume will be generated-->
+    <script src="script.js"></script>
+ </div>
+</body>
+</html>
